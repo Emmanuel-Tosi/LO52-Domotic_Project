@@ -26,6 +26,11 @@ Sources sous LO52_Projet/Sources/linaro_ics_tp
 
 
 
+Créer un nouveau fichier :
+git add + X
+git commit
+git push
+
 
 
 
