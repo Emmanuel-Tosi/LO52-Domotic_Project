@@ -1,0 +1,31 @@
+Premières choses :
+-boot animation (dans /system/media, bootanimation.zip -- après compilation)
+-fond d'écran (overlay)
+-ligne pour compiler (une ligne pour Linaro)  --  make TARGET_PRODUCT={TARGET_PRODUCT} TARGET_TOOLS_PREFIX=prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x/bin/arm-linux-androideabi- boottarball systemtarball userdatatarball
+-méthode d'installation d'Android
+-libusb
+ 
+
+Serveur
+	NodeJS ?
+	Webservice en JavaScript/Python
+	Recevoir les valeurs, les stocker et les servir à l'application
+
+
+Notifications
+	Afficher une notification sur l'appareil
+	Raffraichir en "temps réel" ou à intervales réguliers l'évolution des valeurs SANS ALLUMER L'APPAREIL
+	-> une socket entre la station et l'application
+	Chunk channel entre serveur et applications Android
+
+
+Sources sous LO52_Projet/Sources/linaro_ics_tp
+				/ressources_projet
+
+
+
+
+
+
+
+
