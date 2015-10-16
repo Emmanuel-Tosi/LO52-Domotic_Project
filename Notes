@@ -8,7 +8,7 @@ http://stackoverflow.com/questions/27968998/how-to-compile-an-aosp-project-with-
 
 -ligne pour compiler (une ligne pour Linaro)  --  à faire dans ~/LO52_projet/Sources/linaro-ics-tp
 NE PAS TOUCHER AD VITAM!!!!!
-make TARGET_PRODUCT=arrow TARGET_TOOLS_PREFIX=/home/lo52tp/LO52_projet/Sources/android-toolchain-eabi/bin/arm-eabi- TARGET_SIMULATOR=false KERNEL_CONFIG=android_omap4plus_defconfig TARGET_NO_HARDWAREGFX=1 boottarball systemtarball userdatatarball
+make TARGET_PRODUCT=arrow TARGET_TOOLS_PREFIX=/home/lo52tp/LO52_projet/Sources/android-toolchain-eabi/bin/arm-linux-androideabi- TARGET_SIMULATOR=false KERNEL_CONFIG=android_omap4plus_defconfig TARGET_NO_HARDWAREGFX=1 boottarball systemtarball userdatatarball
 
 -méthode d'installation d'Android
 -libusb
@@ -31,6 +31,8 @@ Sources sous LO52_Projet/Sources/linaro_ics_tp
 				/ressources_projet
 
 
+Bootanimation :  /Sources/code source/device/linaro/arrow/media
+Wallpaper : /Sources/code source/device/linaro/arrow/overlay/frameworks/base/core/res/...
 
 
 
