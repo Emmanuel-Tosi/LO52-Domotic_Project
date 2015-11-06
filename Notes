@@ -15,7 +15,7 @@ make TARGET_PRODUCT=arrow TARGET_TOOLS_PREFIX=/home/lo52tp/LO52_projet/Sources/a
  
 
 Serveur
-	NodeJS ?
+	NodeJS ?  -> MangoDB avec python finalement (accès aux sources du groupe précédents)
 	Webservice en JavaScript/Python
 	Recevoir les valeurs, les stocker et les servir à l'application
 
