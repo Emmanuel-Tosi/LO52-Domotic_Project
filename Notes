@@ -44,3 +44,9 @@ git push
 
 
 /home/lo52tp/LO52_projet/Sources/android-toolchain-eabi/bin
+
+--------------------------------------------------------------------
+Adb peut être trouvé à l'emplacement out/host/linux.86/bin
+
+
+
